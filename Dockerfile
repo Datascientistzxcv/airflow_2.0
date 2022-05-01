@@ -81,9 +81,10 @@ RUN set -ex \
     && pip install awscli \
     && pip install email_validator\
     && pip install simple-smartsheet\
-    && pip install smartsheet-python-sdk
+    && pip install smartsheet-python-sdk\
+    && pip install marshmallow==2.21.0 WTForms==2.3.3
 
-
+   
 
 
 
